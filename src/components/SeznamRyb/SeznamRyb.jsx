@@ -31,11 +31,11 @@ function SeznamRyb({ rybicky, setRybicky }) {
 
   return (
     <div className="seznam-ryb">
-      <h2 className="m-4">Rybičky</h2>
+      <h2 className="m-4">Ryby</h2>
       <input
         type="text"
         name="jmeno"
-        placeholder="Jméno rybičky"
+        placeholder="ryba"
         value={novaRyba.jmeno}
         onChange={handleChange}
         className="form-control d-inline-block w-auto me-2"
