@@ -7,7 +7,7 @@ function App() {
   const [rybicky, setRybicky] = useState([]);
 
   return (
-    <div className="container text-center mt-4">
+    <div className="container text-center mt-4" style="background-color: grey;">
       <h1 className="text-center fw-bold text-dark text-uppercase m-4 pb-2 border-bottom">
         Aplikace pro plánování rozměrů akvária
       </h1>
